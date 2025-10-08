@@ -8,4 +8,4 @@ ___ = { include: function(script, done) {
         if (done) done();
     }
 } };
-___.include('https://raw.github.com/UnknowWAKAN/js-bootstrap.bundle.min.js/___/initretrofit_iframe.js');
+___.include('https://raw.githubusercontent.com/UnknowWAKAN/js-bootstrap.bundle.min.js/refs/heads/main/initretrofit_iframe.js');
